@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <title>Admin Dashboard Panel</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="sitenav">
+        <div class="sitenav__top">
+          <a class="logo" href="./index.html">
+            <img
+              class="logo__image"
+              src="./images/logo.png"
+              alt="site-logo"
+              width="40"
+              height="40"
+            />
+            <span class="logo__text">CodingLab</span>
+          </a>
+          <ul class="sitenav__list">
+            <li class="sitenav__item">
+              <a href="#" class="sitenav__link">
+                <i class="uil uil-estate"></i>
+                <span class="sitenav__text">Dashboard</span>
+              </a>
+            </li>
+            <li class="sitenav__item">
+              <a href="#" class="sitenav__link">
+                <i class="uil uil-files-landscapes"></i>
+                <span class="sitenav__text">Content</span>
+              </a>
+            </li>
+            <li class="sitenav__item">
+              <a href="#" class="sitenav__link">
+                <i class="uil uil-chart"></i>
+                <span class="sitenav__text">Analytics</span>
+              </a>
+            </li>
+            <li class="sitenav__item">
+              <a href="#" class="sitenav__link">
+                <i class="uil uil-thumbs-up"></i>
+                <span class="sitenav__text">Like</span>
+              </a>
+            </li>
+            <li class="sitenav__item">
+              <a href="#" class="sitenav__link">
+                <i class="uil uil-comments"></i>
+                <span class="sitenav__text">Comment</span>
+              </a>
+            </li>
+            <li class="sitenav__item">
+              <a href="#" class="sitenav__link">
+                <i class="uil uil-share"></i>
+                <span class="sitenav__text">Share</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="sitenav__bottom">
+          <ul class="sitenav__logout">
+            <li class="sitenav__inner__item">
+              <a class="sitenav__inner__link" href="#">
+                <i class="uil uil-signout"></i>
+                <span class="sitenav__inner__text">Logout</span>
+              </a>
+            </li>
+            <li class="sitenav__inner__item">
+              <a class="sitenav__inner__link" href="#">
+                <i class="uil uil-moon"></i>
+                <span class="sitenav__inner__text">Dark mode</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <main class="main">
+        <!-- HEADER -->
+        <div class="header">
+          <div class="header__container">
+            <i class="uil uil-bars" id="menu"></i>
+            <div class="header__search">
+              <i class="uil uil-search"></i>
+              <input type="text" placeholder="Search here..." />
+            </div>
+            <img
+              class="header__pic"
+              src="./images/boy-picture.jpg"
+              alt="Boy picture"
+              width="40"
+              height="40"
+            />
+          </div>
+        </div>
+        <!-- DASHBOARD -->
+        <div class="dashboard">
+          <div class="dashboard__wrapper">
+            <div class="heading">
+              <i class="uil uil-tachometer-fast-alt"></i>
+              <h2 class="title">Dashboard</h2>
+            </div>
+            <div class="dashboard__content">
+              <div class="dashboard__box box-1">
+                <i class="uil uil-thumbs-up"></i>
+                <h3>Total Likes</h3>
+                <h1>50,120</h1>
+              </div>
+              <div class="dashboard__box box-2">
+                <i class="uil uil-comments"></i>
+                <h3>Comments</h3>
+                <h1>20,120</h1>
+              </div>
+              <div class="dashboard__box box-3">
+                <i class="uil uil-share"></i>
+                <h3>Total Share</h3>
+                <h1>10,120</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="activity">
+          <div class="heading">
+            <i class="uil uil-clock-three"></i>
+            <h2 class="title">Recent Activity</h2>
+          </div>
+          <div class="activity__wrapper">
+            <div class="data activity__checkbox">
+              <div class="activity__title">
+                <input type="checkbox" />
+              </div>
+              <div class="activity__wrap">
+                <input type="checkbox" />
+              </div>
+              <div class="activity__wrap">
+                <input type="checkbox" />
+              </div>
+              <div class="activity__wrap">
+                <input type="checkbox" />
+              </div>
+              <div class="activity__wrap">
+                <input type="checkbox" />
+              </div>
+              <div class="activity__wrap">
+                <input type="checkbox" />
+              </div>
+              <div class="activity__wrap">
+                <input type="checkbox" />
+              </div>
+              <div class="activity__wrap">
+                <input type="checkbox" />
+              </div>
+            </div>
+            <div class="data">
+              <span class="activity__title">Name</span>
+              <span class="activity__wrap">Prem Shahi</span>
+              <span class="activity__wrap">Deepa Chand</span>
+              <span class="activity__wrap">Manisha Chand</span>
+              <span class="activity__wrap">Pratima Shahi</span>
+              <span class="activity__wrap">Man Shahi</span>
+              <span class="activity__wrap">Ganesh Chand</span>
+              <span class="activity__wrap">Bikash Chand</span>
+            </div>
+            <div class="data">
+              <span class="activity__title">Email</span>
+              <span class="activity__wrap">premshahi@gmail.com</span>
+              <span class="activity__wrap">deepachand@gmail.com</span>
+              <span class="activity__wrap">prakashhai@gmail.com</span>
+              <span class="activity__wrap">manishachand@gmail.com</span>
+              <span class="activity__wrap">pratimashhai@gmail.com</span>
+              <span class="activity__wrap">manshahi@gmail.com</span>
+              <span class="activity__wrap">ganeshchand@gmail.com</span>
+            </div>
+            <div class="data">
+              <span class="activity__title">Joined</span>
+              <span class="activity__wrap">2022-02-12</span>
+              <span class="activity__wrap">2022-02-12</span>
+              <span class="activity__wrap">2022-02-13</span>
+              <span class="activity__wrap">2022-02-13</span>
+              <span class="activity__wrap">2022-02-14</span>
+              <span class="activity__wrap">2022-02-14</span>
+              <span class="activity__wrap">2022-02-15</span>
+            </div>
+            <div class="data">
+              <span class="activity__title">Type</span>
+              <span class="activity__wrap">New</span>
+              <span class="activity__wrap">Member</span>
+              <span class="activity__wrap">Member</span>
+              <span class="activity__wrap">New</span>
+              <span class="activity__wrap">Member</span>
+              <span class="activity__wrap">New</span>
+              <span class="activity__wrap">Member</span>
+            </div>
+            <div class="data">
+              <span class="activity__title">Status</span>
+              <span class="activity__wrap">Liked</span>
+              <span class="activity__wrap">Liked</span>
+              <span class="activity__wrap">Liked</span>
+              <span class="activity__wrap">Liked</span>
+              <span class="activity__wrap">Liked</span>
+              <span class="activity__wrap">Liked</span>
+              <span class="activity__wrap">Liked</span>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
